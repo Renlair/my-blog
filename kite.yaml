@@ -1,0 +1,32 @@
+site:
+  title: ranl's website
+  author: lai ren
+  baseURL: http://localhost:1717
+  language: zh-CN
+  description: Email：renlai173002@gmail.com
+  timezone: Asia/Shanghai
+
+content:
+  store: file
+  dir: content
+
+build:
+  output: public
+  pageSize: 5
+plugins:
+  enabled: []
+theme:
+  settings:
+    accent: '#b4530e'
+    favicon: /uploads/头像 (4)-3.png
+    logo: /uploads/头像 (4)-2.png
+    logo_dark: /uploads/头像 (2).png
+    social:
+      email: ""
+      github: https://github.com/Renlair
+    show_title: false
+    hero_text: |-
+      记录一些感想
+    hero_title: '*Renlai*'
+    show_toc: false
+  name: vane
